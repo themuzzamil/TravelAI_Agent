@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "summary"
+version = "0.1.0"
+description = ""
+authors = ["AmmarAamir786 <ammaraamir609@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph-cli = "^0.1.61"
+python-dotenv = "^1.0.1"
+langgraph = "^0.2.56"
+langchain-google-genai = "^2.0.6"
+langchain-core = "^0.3.21"
+langchain-community = "^0.3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

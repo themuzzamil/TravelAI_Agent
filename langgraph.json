@@ -1,0 +1,12 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "chatbot": "./summary/chatbot.py:graph"
+  },
+  "env": ".env",
+  "python_version": "3.12",
+  "dependencies": [
+    "./summary",
+    "langchain-google-genai"
+  ]
+}
