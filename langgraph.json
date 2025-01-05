@@ -1,12 +1,14 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "chatbot": "./summary/chatbot.py:graph"
+    "chatbot": "./TravelAI/graph.py:graph"
   },
   "env": ".env",
   "python_version": "3.12",
   "dependencies": [
     "./summary",
-    "langchain-google-genai"
+    "langchain-google-genai",
+    "langchain-core",
+    "langchain-community"
   ]
 }
