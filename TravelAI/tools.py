@@ -1,5 +1,5 @@
 import requests
-from TravelAI.settings import tavily_search, GOMAP_API_KEY, llm
+from travelai.settings import tavily_search, GOMAP_API_KEY, llm
 
 def getdistance(origin:str,destination:str):
     """

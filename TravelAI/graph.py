@@ -4,9 +4,8 @@ from langgraph.prebuilt import ToolNode
 from langgraph.prebuilt import tools_condition
 from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import MemorySaver
-from TravelAI.tools import llm_tool, tool
-from TravelAI.prompt import prompt
-
+from travelai.tools import llm_tool, tool
+from travelai.prompt import prompt
 
 def output(state: MessagesState):
   system_msg = prompt.format()
@@ -31,3 +30,4 @@ builder.add_conditional_edges(
 builder.add_edge("tools", "Chatbot")
 
 graph = builder.compile(checkpointer=memory)
+

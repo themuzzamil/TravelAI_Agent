@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "summary"
+name = "travelai"
 version = "0.1.0"
 description = ""
 authors = ["AmmarAamir786 <ammaraamir609@gmail.com>"]
